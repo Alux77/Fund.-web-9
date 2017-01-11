@@ -35,7 +35,7 @@ $('ul.tabs').each(function(){
   });
 
   $(".tabs a").on('click', function(e){
-    console.log("hola"); //BANDERA que indica si etsamos dentro de donde queremos
+    console.log("hola"); //BANDERA que indica si reacciona donde estamos denubicados
 
     $(this).parent('li').addClass('active').siblings().removeClass('active');
 
